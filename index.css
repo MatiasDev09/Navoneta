@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #f5818517;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.caja_logo {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 240px;
+  padding-bottom: 30px;
+}
+
+.caja_nav {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+.nave {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.678);
+  font-weight: 600;
+}
+
+.nave:hover {
+  color: #e51c24;
+}
+
+.linea {
+  border-bottom: 1px solid #e51c239a;
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.arriba {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  color: #e51c239a;
+  font-size: 2.3em;
+  cursor: pointer;
+  text-decoration: none;
+  transform: rotate(-90deg);
+}
+
+.quienes_somos {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #e51c24;
+}
+
+.titulo_somos {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.678);
+  letter-spacing: 1px;
+}
+
+.texto_somos {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.678);
+  margin-bottom: 140px;
+}
+
+.nuestra_propuesta {
+  margin-bottom: 50px;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.caja_imagenes_propuestas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.caja_card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  color: #e51c239a;
+}
+
+.imagenes_propuesta {
+  width: 220px;
+  object-fit: cover;
+  height: auto;
+  padding: 20px;
+}
+
+.caja_informacion {
+  width: 100%;
+  padding-top: 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  scroll-behavior: smooth;
+}
+
+.ultimo_cliente {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 2em;
+}
+
+.logo_cliente {
+  width: 250px;
+  object-fit: contain;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.texto_cliente {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.caja_problema_soluciones {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.texto_cr {
+  font-size: 2m;
+  color: rgba(0, 0, 0, 0.678);
+  padding-top: 50px;
+}
+
+.problemas {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.solucion {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.caja_foda {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.foda {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foda_foda {
+  font-size: 2em;
+  padding: 30px;
+  color: #e51c239a;
+}
+
+.caja-plan {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plan-de-trabajo {
+  padding-bottom: 40px;
+  font-size: 1.8em;
+  color: #e51c239a;
+}
+
+.cuadro {
+  opacity: 0.76;
+}
+
+.caja-presupuesto {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.presupuesto {
+  padding-top: 170px;
+  padding-bottom: 50px;
+  color: #e51c239a;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.texto-post {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 1em;
+}
+
+footer {
+  background-color: #f5818517;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.caja_contacto {
+  display: flex;
+  flex-direction: row;
+}
+.tipos_contactos {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 0.8em;
+  margin: 30px;
+}
